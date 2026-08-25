@@ -80,3 +80,13 @@ The rover then:
                    \              /
                     v            v
                     Continue
+
+
+## ⚙️ Adjustable Parameters
+
+The following parameters can be modified in the Arduino code according to the rover's design and operating requirements:
+
+- **Motor Speed:** The motor speed can be adjusted from **0 to 255** using PWM according to the required rover speed.
+- **Front Detection Distance:** The front obstacle detection distance can be modified according to the **chassis size and rover layout**.
+- **Turning Delay:** The turning delay can be adjusted according to the **rover's turning angle, motor speed, and chassis design**.
+- **Customization:** These parameters can be tuned during testing to achieve the desired obstacle-avoidance performance.
